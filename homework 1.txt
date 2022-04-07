@@ -1,0 +1,15 @@
+Variables: Son un espacio que tiene determinada informacion. Es decir, un espacio en el que se guarda algo, llamemoslo "un valor" (un contenido) para usarlo mas tarde. Se crean con la palabra clave "var", y se le da ese contenido con el "=". Hay 3 tipos: las "var" (que pueden cambiar), las "let", que funcionan a "nivel de scope" y las "const", que son constantes y no cambian.
+ Estas pueden ir cambiando lo que tienen dentro.
+Strings: Son "hilos" de texto, es decir, un conjunto de letras y numeros que funcionan como palabras, sea lo que sea que tenga dentro.
+
+Funciones: es una parte de javascript, esta permite crear un objeto "llamable", o usable varias veces, que se llama "callable object".
+esto permite crear un comando, tanto con valores claros como cambiandole valores.
+ 
+argumentos: son los valores que podemos usar en una funcion dentro del parentesis para que esta funcione.
+Return: es el comando que permite "devolver" lo que queda fuera de un calculo.
+
+declaraciones if: Es una declaración en la que si se da lo que establece, genera una accion. por ejemplo "si el dia esta lluvioso/uso paraguas". 
+
+valores booleanos: Es un tipo de valor que se da siempre por verdadero o falso (true o false).
+
+
