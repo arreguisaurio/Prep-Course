@@ -1,13 +1,13 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = 'hola2';
+const nuevaString = 'Hola';
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = 1 ;
+const nuevoNum = 8;
 
 // Crea una variable booleana:
-const nuevoBool = false;
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -28,41 +28,42 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  return str;
+    return str;
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  return x+y;
+  return x + y;
 }
 
 function resta(x, y) {
-  // Resta "y" de "x" y devuelve el valor
+  // Resta "x" de "y" y devuelve el valor
   // Tu código:
-  return x-y;
+  return x - y;
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  return x*y;
+  return x * y;
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  return x/y;
+  return x / y;
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x===y) {
+  if (x === y) {
     return true;
-  } else {return false;
+  } else {
+    return false;
   }
 }
 
@@ -70,7 +71,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  str1.length === str2.length;
+  return str1.length === str2.length;
 }
 
 function menosQueNoventa(num) {
@@ -94,29 +95,29 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  return x%y;
-  }
+  return x % y;
+}
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 2 === 0) {
-   return true;
-  }else {
+  if( num % 2 === 0) {
+    return true;
+  } else {
     return false;
-    }
+  }
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 2 === 1) {
+  if(num % 2 === 1) {
     return true;
-   }else {
-     return false;
-     }
+  } else {
+    return false;
+  }
 }
 
 function elevarAlCuadrado(num) {
@@ -129,38 +130,38 @@ function elevarAlCuadrado(num) {
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  return num*num*num;
+  return num * num * num;
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  return Math.pow (num, exponent);
+  return Math.pow(num, exponent);
 }
 
 function redondearNumero(num) {
-  // Redondea "num" al entero más próximo y devuélvelo
+  // Redondea "num" y devuélvelo
   // Tu código:
-  var resto = num % 1;
-  var entero = num - resto;
-   if (resto >= 0.5) {
-   return entero + 1;
-   } else {
-     return entero;
-  }
+  // var resto = num % 1;
+  // var entero = num - resto;
+  // if (resto >= 0.5) {
+  //   return entero + 1;
+  // } else {
+  //   return entero;
+  // }
+  return Math.round(num);
 }
 
 function redondearHaciaArriba(num) {
-  // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
+  // Redondea "num" hacia arriba y devuélvelo
   // Tu código:
-  
-  return Math.ceil (num);
+  return Math.ceil(num);
 }
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  return Math.random ();
+  return Math.random();
 }
 
 function esPositivo(numero) {
@@ -183,7 +184,7 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-return str + '!';
+  return str + '!';
 }
 
 function combinarNombres(nombre, apellido) {
@@ -202,52 +203,45 @@ function obtenerSaludo(nombre) {
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
-  // Retornar el area de un rectángulo teniendo su altura y ancho
+  // Retornar el area de un cuadrado teniendo su altura y ancho
   // Tu código:
-  return alto * ancho; //aca agregaria "area" antes por ser siempre 
-   //una medida en area cuadrada
-                
+  return alto * ancho;
 }
-
 
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  return lado * 4 ;
+  return lado * 4
 }
-
 
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-  return (base * altura) / 2;
-}
+  return (base * altura)/2
 
+}
 
 function deEuroAdolar(euro){
-  //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
-  //como parámetro un número de euros y calcule el cambio en dólares.
+  //Supongamos que 1 euro equivale a 1.20 dólares. 
+  //Escribe un programa que pida al usuario un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  return euro * 1.2 ;
+  return euro * 1.2
 }
-
 
 function esVocal(letra){
   //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 
-  //Verificar si el usuario ingresó un string de más de un carácter, en ese caso, informarle 
+  //Verificar si el usuario ingresó un string de más de un carácter y, en ese caso, informarle 
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
-  // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if(letra.length > 1){
-    return "Dato incorrecto";
+    return "Dato incorrecto"
   }
   if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
-    return "Es vocal";
+    return "Es vocal"
   }
-  return "Dato incorrecto";
+  return "Dato incorrecto"
+
 }
-
-
 
 // No modificar nada debajo de esta línea
 // --------------------------------
