@@ -1,0 +1,17 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+* `&&`, `||`, `!`
+
+// For: es una operación, mediante la cual el programa busca repetir una accion siempre que los parametros se repitan. 
+// Va seguida de un parentesis () donde van los 3 contenidos, los parametros que va a usar ,seguida de llaves {}. un ejemplo seria:
+var i 
+for (i= 0; i <= 10; i++) { // esto querria decir, que i arranca valiendo cero, y que mientras valga menos o igual a 10 (osea, la condicion sea verdadera), 
+// cumpla el incremental de 1 (el i++)
+
+}
+
+// && es un operador de AND (y), es decir, debe cumplirse una condicion ADEMAS de la otra condicion. se suele usar en IF cuando queremos que mas de un parametro se dé.
+// || es el operador de OR (o), es decir, que es cuando necesitamos que una de esos parametros se cumpla, pero no precisamente todos.
+// ! es el operador NOT (no), este cumple funcion de booleano. si algo NO es el parametro determinado, da true, y si da el parametro buscado, es false.
+ // ejemplo, si ponemos que capture el dato i != 2, y resulta que i = 2, daria false, porque no se estaría dando el NO 2.
