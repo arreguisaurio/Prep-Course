@@ -1,0 +1,1 @@
+array: Un arreglo es un conjunto de elementos. es una estructura de datos que puede tener diferentes variables, e incluso, diferentes tipos de variables, e incluso funciones.
