@@ -1,0 +1,2 @@
+callback: es llamar una funcion como argumento de otra funcion. 
+esto es importante ya que reutiliza lo que se creó anteriormente, lo que resulta en menor consumo de recursos
