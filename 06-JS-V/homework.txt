@@ -1,0 +1,7 @@
+prototype: es un metodo, funciona como creador de clase pero ademas insertar los metodos dentro una sola vez,
+permitiendo el acceso a estos metodos una vez unica, reduciendo el consumo de recursos para ello.
+
+_Constructors_ (de Clases) : es un metodo mediante el cual se crea un objeto de esa clase. 
+Se inicializa ese objeto y sirve para verificar que contenga valores validos.
+es un método especial de una clase que se llama automáticamente siempre que se declara un objeto de esa clase.
+ Su función es inicializar el objeto y sirve para asegurarnos que los objetos siempre contengan valores válidos.
