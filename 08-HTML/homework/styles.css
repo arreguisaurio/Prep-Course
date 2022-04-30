@@ -1,0 +1,50 @@
+body{
+backdrop-filter: brightness(120%) blur(6px);
+background-image: url("https://static.wikia.nocookie.net/esharrypotter/images/7/76/Fresa.jpg/revision/latest/top-crop/width/360/height/450?cb=20200713112301") ;  
+background-size: 100px; 
+margin: 10px;
+text-align:center;
+justify-content: center;
+
+
+}
+
+h1 {
+    color:darkslateblue ;
+        height: 30px;
+        display:flex;
+        justify-content: center;
+        text-align:center;
+    }
+       
+img {
+    width: 400px;
+    display:flex;
+    justify-content: center;
+  
+}
+        
+#thirdDiv {
+   
+    display:flex;
+        height: 600px;
+        width: 500px; 
+        padding:50px; 
+        margin: auto;
+        border-style:dotted ;
+        border-color:brown;
+        border-width: 5px;
+        background-color:aquamarine;
+    text-align:center; 
+    justify-content: center;
+    
+}
+         
+#spanId {
+    font-size:18px;
+    margin:50px;
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    }
+

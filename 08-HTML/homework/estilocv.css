@@ -1,0 +1,70 @@
+body{
+    background-color: lightcyan;  
+    margin: 10px;
+}
+#titulo{
+    color:darkred ;
+    height: 30px;
+    
+    text-align: right;
+    margin-right: 200px
+}
+span {
+    margin:auto;
+    display:flex;
+    align-content: right;
+}
+
+img {
+    justify-content: right;
+    height: 200px;
+    margin: auto;
+    position:relative;
+}
+
+.parametro {
+    font-size: 18px;
+    min-height: 200px;
+    max-width: 400px; 
+    padding:5px; 
+    margin: auto;
+    border-style:dotted ;
+    border-color:brown;
+    border-width: 3px;
+    background-color:aquamarine;
+}
+
+#experiencias {
+    font-size: 18px;
+    min-height: 200px;
+    max-width: 400px;
+    padding:5px; 
+    margin: auto;
+    border-style:dotted ;
+    border-color:brown;
+    border-width: 3px;
+    background-color:aquamarine;
+}
+
+#expectativas {
+    font-size: 18px;
+    min-height: 200px;
+    max-width: 400px; 
+    padding:5px; 
+    margin: auto;
+    border-style:dotted ;
+    border-color:brown;
+    border-width: 3px;
+    background-color:aquamarine;
+}
+
+link {
+     
+    padding:5px; 
+    margin: auto;
+    border-style:dotted ;
+    border-color:blue;
+    border-width: 3px;
+    background-color:aquamarine;
+}
+
